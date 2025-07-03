@@ -5,6 +5,6 @@
 
   # karlgrieshop's Website
 
-  Visit **[karlgrieshop.github.io](https://karlgrieshop.github.io)** 🚀
+  Visit **[grieshoplab.com](http://grieshoplab.com)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
