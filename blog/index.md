@@ -1,14 +1,13 @@
 ---
-title: Blog
+title: News
 nav:
   order: 4
-  tooltip: Musings and miscellany
+  tooltip: Lab news and updates
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+# {% include icon.html icon="fa-solid fa-newspaper" %}Lab News
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Welcome to the Grieshop Lab news feed! Here you'll find updates, announcements, and highlights from our research group.
 
 {% include section.html %}
 

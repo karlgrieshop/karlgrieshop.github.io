@@ -1,81 +1,39 @@
 ---
 ---
 
-# karlgrieshop's Website
+# Grieshop Lab
 
-An engaging 1-3 sentence description of your lab.
+We study the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages, and environments. Our interdisciplinary approach blends lab experiments, quantitative genetics, genomics, bioinformatics, and mathematical modelling to understand these trade-offs, primarily in the fruit fly *Drosophila melanogaster*.
 
 {% include section.html %}
 
 ## Highlights
 
-{% capture text %}
+<div class="image-panel-grid">
+  <figure>
+    <img src="images/Tania+equations.jpg" alt="Equations: Tania S. Barrera; Photo: Karl Grieshop">
+    <figcaption>Equations: Tania S. Barrera; Photo: Karl Grieshop</figcaption>
+  </figure>
+  <figure>
+    <img src="images/Pure+DsRed+Ex.jpg" alt="Photo: Karl Grieshop">
+    <figcaption>Photo: Karl Grieshop</figcaption>
+  </figure>
+  <figure>
+    <img src="images/IMG_0795.jpeg" alt="Photo: Karl Grieshop">
+    <figcaption>Photo: Karl Grieshop</figcaption>
+  </figure>
+  <figure>
+    <img src="images/IMG_0792.jpeg" alt="Photo: Karl Grieshop">
+    <figcaption>Photo: Karl Grieshop</figcaption>
+  </figure>
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+---
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+## Research
 
-{% endcapture %}
+My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly *Drosophila melanogaster*. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations.
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+Informal inquiries about joining the lab are always welcome. [Get in touch](contact).
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+---
