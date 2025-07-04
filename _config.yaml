@@ -36,37 +36,31 @@ defaults:
       layout: post
 
 collections:
-  # generate page for each member
   members:
     output: true
-  # generate page for each post
   posts:
     output: true
 
-# jekyll plugins
+# jekyll plugins (only those supported by GitHub Pages)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
-# code block syntax highlighting
 highlighter: rouge
 
-# jekyll theme
 theme: null
 
-# sass settings
 sass:
   sass_dir: _styles
 
-# force jekyll to include certain files/folders
 include:
   - _styles
   - _scripts
   - images
   - assets
 
-# force jekyll to exclude certain files/folders
 exclude:
   - README.md
   - LICENSE.md
