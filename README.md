@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # karlgrieshop's Website
+  # Grieshop Lab's Website
 
   Visit **[grieshoplab.com](http://grieshoplab.com)** 🚀
 
