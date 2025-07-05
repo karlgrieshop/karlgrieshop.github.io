@@ -1,1 +1,1 @@
-Sitemap: http://grieshoplab.com/sitemap.xml
+Sitemap: https://grieshoplab.com/sitemap.xml
