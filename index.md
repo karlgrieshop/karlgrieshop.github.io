@@ -5,8 +5,6 @@ nav:
   tooltip: Home
 ---
 
-# Grieshop Lab
-
 We study the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages, and environments.
 
 ---
@@ -34,10 +32,10 @@ We study the evolutionary causes and consequences of genetic variation underlyin
 </style>
 
 <div class="image-grid">
-  <img src="/images/Sex-specific+fitness+optima.jpg" alt="Sex-specific fitness optima">
-  <img src="/images/ReproductiveFst.png" alt="Reproductive Fst">
-  <img src="/images/Biophys+model.png" alt="Biophys model">
-  <img src="/images/Diallel+heatmap.jpg" alt="Diallel heatmap">
+  <img src="/images/Tania+equations.jpg" alt="Tania equations">
+  <img src="/images/IMG_0795.jpeg" alt="Mating cages">
+  <img src="/images/Pure+DsRed+Ex.jpg" alt="Large genetic cross">
+  <img src="/images/IMG_0793.jpeg" alt="Mating cage">
 </div>
 
 ---
