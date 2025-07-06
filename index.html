@@ -391,6 +391,7 @@ nav, .subtitle, .caption {
   <script src="/_scripts/tooltip.js"></script>
 
 
+  <link rel="icon" type="image/png" href="/images/icon.png">
 
 
   </head>
@@ -448,11 +449,21 @@ nav, .subtitle, .caption {
   max-width: 1200px;
   margin: 2rem auto;
 }
+.image-grid .img-tile {
+  aspect-ratio: 4/3; /* or 1/1 for square, or adjust as needed */
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .image-grid img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  object-fit: contain;
 }
 @media (max-width: 700px) {
   .image-grid {
@@ -462,23 +473,32 @@ nav, .subtitle, .caption {
 </style>
 
 <div class="image-grid">
-  <img src="/images/Tania+equations.jpg" alt="Tania equations">
-  <img src="/images/IMG_0795.jpeg" alt="Mating cages">
-  <img src="/images/Pure+DsRed+Ex.jpg" alt="Large genetic cross">
-  <img src="/images/IMG_0793.jpeg" alt="Mating cage">
+  <div class="img-tile">
+    <img src="/images/Tania+equations.jpg" alt="Tania quantitative genetics equations">
+  </div>
+  <div class="img-tile">
+    <img src="/images/Pure+DsRed+Ex.jpg" alt="Large genetic cross">
+  </div>
+  <div class="img-tile">
+    <img src="/images/IMG_0793.jpeg" alt="Mating cage">
+  </div>
+  <div class="img-tile">
+    <img src="/images/IMG_0795.jpeg" alt="Mating cages">
+  </div>
 </div>
 
 <hr>
 
-<h2 id="about">About</h2>
+<h2 id="research">Research</h2>
+
+<p><img src="../images/SexConMatrix.png" alt="SexConMatrix"></p>
 
 <p>My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly <em>Drosophila melanogaster</em>. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations. <a href="/research/">Read more…</a></p>
 
 <hr>
 
 <ul>
-  <li>
-<strong>Contact:</strong> (/contact/).*</li>
+  <li><strong><a href="/contact/">Contact</a></strong></li>
   <li>
 <strong>Twitter:</strong> <a href="https://x.com/karlgrieshop">@karlgrieshop</a>
 </li>
