@@ -11,25 +11,34 @@ We study the evolutionary causes and consequences of genetic variation underlyin
 
 ---
 
-<!-- 2x2 image grid -->
-<table>
-  <tr>
-    <td>
-      <img src="/images/Tania+equations.jpg" alt="Sex-specific fitness optima" style="width:100%; max-width:300px;">
-    </td>
-    <td>
-      <img src="/images/IMG_0792.jpeg" alt="Reproductive Fst" style="width:100%; max-width:300px;">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="/images/Pure+DsRed+Ex.jpg" alt="Biophys model" style="width:100%; max-width:300px;">
-    </td>
-    <td>
-      <img src="/images/IMG_0795.jpeg" alt="Diallel heatmap" style="width:100%; max-width:300px;">
-    </td>
-  </tr>
-</table>
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+@media (max-width: 700px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="image-grid">
+  <img src="/images/Sex-specific+fitness+optima.jpg" alt="Sex-specific fitness optima">
+  <img src="/images/ReproductiveFst.png" alt="Reproductive Fst">
+  <img src="/images/Biophys+model.png" alt="Biophys model">
+  <img src="/images/Diallel+heatmap.jpg" alt="Diallel heatmap">
+</div>
 
 ---
 
@@ -39,19 +48,7 @@ My lab aims to understand the evolutionary causes and consequences of genetic va
 
 ---
 
-## Get in Touch
-
-- **Email:** K.Grieshop[at]uea.ac.uk
-- **Address:**  
-  School of Biological Sciences  
-  University of East Anglia  
-  Norwich Research Park  
-  Norwich, NR4 7TJ  
-  U.K.
-
+- **Contact:** ({{ '/contact/' | relative_url }}).*
 - **Twitter:** [@karlgrieshop](https://x.com/karlgrieshop)
 - **Bluesky:** [@karlgrieshop.bsky.social](https://bsky.app/profile/karlgrieshop.bsky.social)
 
----
-
-*Check out the links above or [contact us]({{ '/contact/' | relative_url }}).*
