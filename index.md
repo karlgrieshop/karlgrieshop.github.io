@@ -46,10 +46,10 @@ We study the evolutionary causes and consequences of genetic variation underlyin
     <img src="/images/Tania+equations.jpg" alt="Tania quantitative genetics equations">
   </div>
   <div class="img-tile">
-    <img src="/images/Pure+DsRed+Ex.jpg" alt="Large genetic cross">
+    <img src="/images/IMG_0793.jpeg" alt="Mating cage">
   </div>
   <div class="img-tile">
-    <img src="/images/IMG_0793.jpeg" alt="Mating cage">
+    <img src="/images/Pure+DsRed+Ex.jpg" alt="Large genetic cross">
   </div>
   <div class="img-tile">
     <img src="/images/IMG_0795.jpeg" alt="Mating cages">
