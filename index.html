@@ -346,6 +346,28 @@
 
 
 
+<style>
+html {
+  font-size: 20px; /* Increase base font size (default is often 16px) */
+}
+body {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+nav, .subtitle, .caption {
+  font-size: 1.1rem;
+}
+</style>
+
   <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
@@ -419,17 +441,34 @@
 
 <hr>
 
-<!-- 2x2 image grid -->
-<table>
-  <tr>
-    <td><img src="/images/Tania+equations.jpg" alt="Sex-specific fitness optima" style="width:100%; max-width:300px;"></td>
-    <td><img src="/images/IMG_0792.jpeg" alt="Reproductive Fst" style="width:100%; max-width:300px;"></td>
-  </tr>
-  <tr>
-    <td><img src="/images/Pure+DsRed+Ex.jpg" alt="Biophys model" style="width:100%; max-width:300px;"></td>
-    <td><img src="/images/IMG_0795.jpeg" alt="Diallel heatmap" style="width:100%; max-width:300px;"></td>
-  </tr>
-</table>
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+@media (max-width: 700px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="image-grid">
+  <img src="/images/Sex-specific+fitness+optima.jpg" alt="Sex-specific fitness optima">
+  <img src="/images/ReproductiveFst.png" alt="Reproductive Fst">
+  <img src="/images/Biophys+model.png" alt="Biophys model">
+  <img src="/images/Diallel+heatmap.jpg" alt="Diallel heatmap">
+</div>
 
 <hr>
 
@@ -439,19 +478,9 @@
 
 <hr>
 
-<h2 id="get-in-touch">Get in Touch</h2>
-
 <ul>
   <li>
-<strong>Email:</strong> K.Grieshop[at]uea.ac.uk</li>
-  <li>
-    <p><strong>Address:</strong><br>
-School of Biological Sciences<br>
-University of East Anglia<br>
-Norwich Research Park<br>
-Norwich, NR4 7TJ<br>
-U.K.</p>
-  </li>
+<strong>Contact:</strong> (/contact/).*</li>
   <li>
 <strong>Twitter:</strong> <a href="https://x.com/karlgrieshop">@karlgrieshop</a>
 </li>
@@ -460,9 +489,6 @@ U.K.</p>
 </li>
 </ul>
 
-<hr>
-
-<p><em>Check out the links above or <a href="/contact/">contact us</a>.</em></p>
 
   </body>
 </html>
