@@ -1,17 +1,21 @@
 ---
-title: Team
+title: People
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Meet the team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# People
 
-Meet the Grieshop Lab team at the University of East Anglia.
+Meet the Grieshop Lab team!
 
-{% include section.html %}
+{% assign members = site.members | sort: "order" %}
+{% for member in members %}
+## {{ member.name }}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+![{{ member.name }}]({{ member.image }}){: style="max-width: 250px;" }
 
-{% include section.html %}
+{{ member.bio }}
+
+---
+{% endfor %}

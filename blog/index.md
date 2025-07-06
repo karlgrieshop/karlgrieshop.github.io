@@ -1,20 +1,16 @@
 ---
 title: News
 nav:
-  order: 4
-  tooltip: Lab news and updates
+  order: 2
+  tooltip: News and announcements
 ---
 
-# {% include icon.html icon="fa-solid fa-newspaper" %}Lab News
+# News
 
-Welcome to the Grieshop Lab news feed! Here you'll find updates, announcements, and highlights from our research group.
+Welcome to the Grieshop Lab news feed! Here you'll find updates, announcements, and recent highlights.
 
-{% include section.html %}
+---
 
-{% include search-box.html %}
-
-{% include tags.html tags=site.tags %}
-
-{% include search-info.html %}
-
-{% include list.html data="posts" component="post-excerpt" %}
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url | relative_url }}) <span style="color: #888;">({{ post.date | date: "%Y-%m-%d" }})</span>
+{% endfor %}

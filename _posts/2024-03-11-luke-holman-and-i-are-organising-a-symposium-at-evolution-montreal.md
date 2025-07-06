@@ -3,4 +3,4 @@ title: "Luke Holman and I are organising a symposium at Evolution Montreal"
 date: 2024-03-11
 ---
 
-[Announcement on Twitter](https://twitter.com/karlgrieshop/status/1762488930857848930)
+https://twitter.com/karlgrieshop/status/1762488930857848930

@@ -1,13 +1,13 @@
 ---
 title: Contact
 nav:
-  order: 5
-  tooltip: Email, address, and location
+  order: 6
+  tooltip: Get in touch
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# Contact
 
-![Karl Grieshop portrait](../images/Karl_portrait.jpg)
+![Karl Grieshop](/images/Karl_portrait.jpg){: style="max-width: 250px;" }
 
 **Email:**  
 K.Grieshop[at]uea.ac.uk
@@ -21,4 +21,6 @@ U.K.
 
 ---
 
-You can also reach me [@karlgrieshop](https://x.com/karlgrieshop) or [@karlgrieshop.bsky.social](https://bsky.app/profile/karlgrieshop.bsky.social)
+You can also reach me  
+- on Twitter: [@karlgrieshop](https://x.com/karlgrieshop)  
+- on Bluesky: [@karlgrieshop.bsky.social](https://bsky.app/profile/karlgrieshop.bsky.social)

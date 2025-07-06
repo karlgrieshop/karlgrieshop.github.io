@@ -1,39 +1,60 @@
 ---
+title: Grieshop Lab
+nav:
+  order: 1
+  tooltip: Home
 ---
 
 # Grieshop Lab
 
-We study the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages, and environments. Our interdisciplinary approach blends lab experiments, quantitative genetics, genomics, bioinformatics, and mathematical modelling to understand these trade-offs, primarily in the fruit fly *Drosophila melanogaster*.
-
-{% include section.html %}
-
-## Highlights
-
-<div class="image-panel-grid">
-  <figure>
-    <img src="images/Tania+equations.jpg" alt="Equations: Tania S. Barrera; Photo: Karl Grieshop">
-    <figcaption>Equations: Tania S. Barrera; Photo: Karl Grieshop</figcaption>
-  </figure>
-  <figure>
-    <img src="images/Pure+DsRed+Ex.jpg" alt="Photo: Karl Grieshop">
-    <figcaption>Photo: Karl Grieshop</figcaption>
-  </figure>
-  <figure>
-    <img src="images/IMG_0795.jpeg" alt="Photo: Karl Grieshop">
-    <figcaption>Photo: Karl Grieshop</figcaption>
-  </figure>
-  <figure>
-    <img src="images/IMG_0792.jpeg" alt="Photo: Karl Grieshop">
-    <figcaption>Photo: Karl Grieshop</figcaption>
-  </figure>
-</div>
+_Evolutionary Genetics & Genomics_
 
 ---
 
-## Research
+## Welcome
 
-My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly *Drosophila melanogaster*. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations.
-
-Informal inquiries about joining the lab are always welcome. [Get in touch](contact).
+We study the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages, and environments.
 
 ---
+
+## Navigation
+
+- [News]({{ '/blog/' | relative_url }})
+- [Research]({{ '/research/' | relative_url }})
+- [People]({{ '/team/' | relative_url }})
+- [Publications](https://scholar.google.com/citations?user=52Zoz-wAAAAJ)
+- [Code](https://github.com/karlgrieshop)
+- [Contact]({{ '/contact/' | relative_url }})
+
+---
+
+## About
+
+The Grieshop Lab at the University of East Anglia (UEA) focuses on evolutionary genetics and genomics, with an emphasis on sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity, and local adaptation. Our interdisciplinary approach blends lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics, and mathematical modelling to understand these genetic trade-offs, primarily in the fruit fly *Drosophila melanogaster*.
+
+---
+
+## Recent Highlights
+
+- **New pre-print:** [Expression divergence in response to sex-biased selection](https://www.biorxiv.org/content/10.1101/2024.11.11.622976v2.abstract)
+- **Congrats to Ellie Howatson:** Awarded the Accreditation Top Project Award from the Royal Society of Biology for her undergraduate research dissertation in the Grieshop Lab!
+- **Mishra et al. 2024 out now in GBE:** [Cis-regulatory Variation in Relation to Sex and Sexual Dimorphism in *Drosophila melanogaster*](https://academic.oup.com/gbe/article/16/11/evae234/7913330)
+
+---
+
+## Get in Touch
+
+- **Email:** K.Grieshop[at]uea.ac.uk
+- **Address:**  
+  School of Biological Sciences  
+  University of East Anglia  
+  Norwich Research Park  
+  Norwich, NR4 7TJ  
+  U.K.
+
+- **Twitter:** [@karlgrieshop](https://x.com/karlgrieshop)
+- **Bluesky:** [@karlgrieshop.bsky.social](https://bsky.app/profile/karlgrieshop.bsky.social)
+
+---
+
+*For more information, explore the links above or [contact us]({{ '/contact/' | relative_url }}).*

@@ -1,5 +1,5 @@
 ---
-title: "Prashastha Mishra's first first-authored paper, on its way... pre-print up now!"
+title: "Prashastha Mishra's first first-authored paper, on it's way... pre-print up now!"
 date: 2022-12-03
 ---
 
