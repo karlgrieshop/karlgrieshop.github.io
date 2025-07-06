@@ -7,27 +7,35 @@ nav:
 
 # Grieshop Lab
 
-_Evolutionary Genetics & Genomics_
+We study the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages, and environments.
 
 ---
 
-## Welcome
-
-We study the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages, and environments.
+<!-- 2x2 image grid -->
+<table>
+  <tr>
+    <td>
+      <img src="/images/Tania+equations.jpg" alt="Sex-specific fitness optima" style="width:100%; max-width:300px;">
+    </td>
+    <td>
+      <img src="/images/IMG_0792.jpeg" alt="Reproductive Fst" style="width:100%; max-width:300px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="/images/Pure+DsRed+Ex.jpg" alt="Biophys model" style="width:100%; max-width:300px;">
+    </td>
+    <td>
+      <img src="/images/IMG_0795.jpeg" alt="Diallel heatmap" style="width:100%; max-width:300px;">
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## About
 
-The Grieshop Lab at the University of East Anglia (UEA) focuses on evolutionary genetics and genomics, with an emphasis on sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity, and local adaptation. Our interdisciplinary approach blends lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics, and mathematical modelling to understand these genetic trade-offs, primarily in the fruit fly *Drosophila melanogaster*.
-
----
-
-## Recent Highlights
-
-- **New pre-print:** [Expression divergence in response to sex-biased selection](https://www.biorxiv.org/content/10.1101/2024.11.11.622976v2.abstract)
-- **Congrats to Ellie Howatson:** Awarded the Accreditation Top Project Award from the Royal Society of Biology for her undergraduate research dissertation in the Grieshop Lab!
-- **Mishra et al. 2024 out now in GBE:** [Cis-regulatory Variation in Relation to Sex and Sexual Dimorphism in *Drosophila melanogaster*](https://academic.oup.com/gbe/article/16/11/evae234/7913330)
+My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly *Drosophila melanogaster*. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations. [Read more...]({{ '/research/' | relative_url }})
 
 ---
 
@@ -46,4 +54,4 @@ The Grieshop Lab at the University of East Anglia (UEA) focuses on evolutionary 
 
 ---
 
-*For more information, explore the links above or [contact us]({{ '/contact/' | relative_url }}).*
+*Check out the links above or [contact us]({{ '/contact/' | relative_url }}).*
