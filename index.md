@@ -17,17 +17,6 @@ We study the evolutionary causes and consequences of genetic variation underlyin
 
 ---
 
-## Navigation
-
-- [News]({{ '/blog/' | relative_url }})
-- [Research]({{ '/research/' | relative_url }})
-- [People]({{ '/team/' | relative_url }})
-- [Publications](https://scholar.google.com/citations?user=52Zoz-wAAAAJ)
-- [Code](https://github.com/karlgrieshop)
-- [Contact]({{ '/contact/' | relative_url }})
-
----
-
 ## About
 
 The Grieshop Lab at the University of East Anglia (UEA) focuses on evolutionary genetics and genomics, with an emphasis on sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity, and local adaptation. Our interdisciplinary approach blends lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics, and mathematical modelling to understand these genetic trade-offs, primarily in the fruit fly *Drosophila melanogaster*.

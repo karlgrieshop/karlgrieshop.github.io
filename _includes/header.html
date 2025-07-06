@@ -41,19 +41,10 @@
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
   <nav>
-    {% assign pages = site.pages
-      | where_exp: "page", "page.nav"
-      | sort: "nav.order"
-    %}
-    {% for page in pages %}
-      {% if page.nav %}
-        <a
-          href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
-        >
-          {{ page.title }}
-        </a>
-      {% endif %}
-    {% endfor %}
+    <a href="{{ '/blog/' | relative_url }}">News</a>
+    <a href="{{ '/research/' | relative_url }}">Research</a>
+    <a href="{{ '/team/' | relative_url }}">People</a>
+    <a href="https://scholar.google.com/citations?user=52Zoz-wAAAAJ" target="_blank" rel="noopener">Publications</a>
+    <a href="https://github.com/karlgrieshop" target="_blank" rel="noopener">Code</a>
   </nav>
 </header>

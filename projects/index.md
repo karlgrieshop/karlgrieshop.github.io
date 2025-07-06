@@ -1,7 +1,7 @@
 ---
 title: Projects
 nav:
-  order: 2
+  order: false
   tooltip: Software, datasets, and more
 ---
 

@@ -1,22 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="en">
   <head>
     {% include head.html %}
   </head>
   <body>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/research/' | relative_url }}">Research</a>
-      <a href="{{ '/team/' | relative_url }}">People</a>
-      <a href="{{ '/blog/' | relative_url }}">News</a>
-      <a href="https://scholar.google.com/citations?user=52Zoz-wAAAAJ" target="_blank">Publications</a>
-      <a href="https://github.com/karlgrieshop" target="_blank">Code</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact</a>
-    </nav>
     {% include header.html %}
-    <main>
-      {% include content.html content=content %}
-    </main>
-    {% include footer.html %}
+    {{ content }}
   </body>
 </html>
