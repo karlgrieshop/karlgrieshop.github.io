@@ -7,7 +7,7 @@ nav:
 
 # People
 
-Meet the Grieshop Lab team!
+Meet the team!
 
 {% assign members = site.members | sort: "order" %}
 {% for member in members %}
