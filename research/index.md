@@ -9,7 +9,7 @@ nav:
 
 ## Overview
 
-![wordle](../images/wordle+16.png)
+<img src="../images/wordle+16.png" alt="wordle+16" class="center-image" />
 
 My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly *Drosophila melanogaster*. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations.
 
@@ -17,7 +17,7 @@ My lab aims to understand the evolutionary causes and consequences of genetic va
 
 ## Detecting antagonistic loci
 
-![Reproductive Fst](../images/ReproductiveFst.png)
+<img src="../images/ReproductiveFst.png" alt="Reproductive Fst" class="center-image" />
 
 The field is only scratching the surface on the number and location of antagonistic polymorphisms in the genome, their molecular and population genetic characteristics, and the phenotypes they govern. The lab is interested in developing novel methodologies for identifying candidate antagonistic polymorphisms using a combination of quantitative genetics, genomics, transcriptomics, experimental evolution, genome editing, phenotyping, and mathematical modelling. Some of this work aims to leverage a conspicuous pattern of Mendelian inheritance that antagonistic polymorphisms should be enriched for: dominance reversals (see next section).
 
@@ -25,7 +25,7 @@ The field is only scratching the surface on the number and location of antagonis
 
 ## Dominance reversal
 
-![Biophys model](../images/Biophys+model.png)
+<img src="../images/Biophys+model.png" alt="Biophys model" class="center-image" />
 
 Sex-specific dominance reversal—where the allele that benefits a given sex is also dominant in that sex—partially resolves genetic conflicts, facilitates local adaptation, and can help maintain genetic variation. Dominance reversals have seen growing [theoretical and empirical support](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2023.2816). Understanding how dominance reversals occur may help detect antagonistic polymorphisms.
 
@@ -35,7 +35,7 @@ Sex differences in (allele-specific) gene expression brought on by certain combi
 
 ## Genetic architecture
 
-![Diallel heatmap](../images/Diallel+heatmap.jpg)
+<img src="../images/Diallel+heatmap.jpg" alt="Diallel heatmap" class="center-image" />
 
 Genetic architecture can refer to either the mode of inheritance in, or the genetic covariances among, fitness and life history traits. These features ultimately determine a range of characteristics with basic and applied evolutionary implications such as the maintenance of genetic variation, the maintenance of sexual reproduction, adaptation, wildlife management, and public health.
 
