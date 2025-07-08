@@ -41,7 +41,8 @@
   --transition: 0.2s ease;
 }
 
-main, .main-content {
+/* Try this if your content is not inside <main> or .main-content */
+body {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1.5rem;
