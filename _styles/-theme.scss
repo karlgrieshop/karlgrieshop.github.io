@@ -53,15 +53,16 @@
   --transition: 0.2s ease;
 }
 
-main, .main-content {
+/* Try this if your content is not inside <main> or .main-content */
+body {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   max-width: 900px;
   margin: 0 auto;
-  word-break: break-word;      // Ensures long words/URLs wrap
-  overflow-wrap: break-word;   // Ensures long lines wrap
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .center-image {
