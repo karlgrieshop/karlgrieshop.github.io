@@ -41,7 +41,6 @@
   --transition: 0.2s ease;
 }
 
-/* Try this if your content is not inside <main> or .main-content */
 body {
   margin: 2rem auto;
   word-break: break-word;
@@ -54,6 +53,14 @@ body {
   margin-right: auto;
   max-width: 100%;
   height: auto;
+}
+
+.main-content {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /*# sourceMappingURL=-theme.css.map */
