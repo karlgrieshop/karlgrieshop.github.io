@@ -6,6 +6,10 @@ layout: default
 
 <h1 class="center">{{ page.title }}</h1>
 
+{% if page.image %}
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="center-image" style="margin-bottom:2rem;">
+{% endif %}
+
 {%
   include post-info.html
   author=page.author
