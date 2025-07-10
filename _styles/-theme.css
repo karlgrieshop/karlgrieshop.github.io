@@ -63,33 +63,113 @@ body {
   overflow-wrap: break-word;
 }
 
-/* Force navigation to always collapse unless there's enough space for the nav and title */
-header nav {
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem;
+}
+
+header .home {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-right: 0.75rem;
+}
+
+header .title-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header .nav-toggle {
   display: none;
 }
 
-header .nav-toggle:checked ~ nav {
+header nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  padding: 0.25em 0.5em;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+
+header nav a:hover {
+  background: var(--background-alt, #f0f0f0);
+}
+
+/* Hamburger menu for small screens */
+@media (max-width: 900px) {
+  header {
+    flex-wrap: nowrap;
+  }
+  header .nav-toggle {
+    display: block;
+    margin-left: auto;
+    z-index: 2;
+  }
+  header nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--background, #fff);
+    flex-direction: column;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    z-index: 1;
+  }
+  header .nav-toggle:checked ~ nav {
+    display: flex;
+  }
+}
+/* Prevent logo/title from stretching vertically */
+header .logo img,
+header .logo svg {
+  max-height: 48px;
+  height: auto;
+  width: auto;
   display: block;
 }
 
-/* Show nav inline only if there's enough space (adjust max-width as needed) */
-@media (min-width: 1100px) {
-  header nav {
-    display: flex;
-    /* ...other styles for horizontal nav... */
-  }
-  header .nav-toggle {
-    display: none;
-  }
-}
-/* Always show the hamburger menu (nav-toggle) */
-header .nav-toggle {
-  display: inline-block;
+.homepage-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
-/* Hide the hamburger menu if nav is shown inline */
-@media (min-width: 1100px) {
-  header .nav-toggle {
+.homepage-main {
+  flex: 1 1 0;
+}
+
+.homepage-news-sidebar {
+  flex: 0 0 320px;
+  max-width: 320px;
+  background: var(--background-alt, #fafafa);
+  padding: 1rem;
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .homepage-news-sidebar {
     display: none;
   }
 }
