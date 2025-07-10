@@ -37,13 +37,20 @@ header a {
 
 .title-text {
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 0;
   min-width: 0;
   font-family: var(--title);
-  text-align: left;
+}
+
+.title,
+.subtitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
 }
 
 .title {
