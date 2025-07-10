@@ -199,3 +199,8 @@ header .logo svg {
 .news-scroll > div {
   scroll-snap-align: start;
 }
+
+/* Offset anchor targets for fixed header */
+[id] {
+  scroll-margin-top: 80px; // Adjust 80px to match your header/nav height
+}
