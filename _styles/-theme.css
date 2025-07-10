@@ -63,4 +63,35 @@ body {
   overflow-wrap: break-word;
 }
 
+/* Force navigation to always collapse unless there's enough space for the nav and title */
+header nav {
+  display: none;
+}
+
+header .nav-toggle:checked ~ nav {
+  display: block;
+}
+
+/* Show nav inline only if there's enough space (adjust max-width as needed) */
+@media (min-width: 1100px) {
+  header nav {
+    display: flex;
+    /* ...other styles for horizontal nav... */
+  }
+  header .nav-toggle {
+    display: none;
+  }
+}
+/* Always show the hamburger menu (nav-toggle) */
+header .nav-toggle {
+  display: inline-block;
+}
+
+/* Hide the hamburger menu if nav is shown inline */
+@media (min-width: 1100px) {
+  header .nav-toggle {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=-theme.css.map */
