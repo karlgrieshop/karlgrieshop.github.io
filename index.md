@@ -5,8 +5,6 @@ nav:
   tooltip: Home
 ---
 
-We study the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages, and environments.
-
 <style>
 .image-grid {
   display: grid;
@@ -52,6 +50,9 @@ We study the evolutionary causes and consequences of genetic variation underlyin
 }
 </style>
 
+<div class="main-content">
+We study the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages, and environments.
+
 <div class="image-grid">
   <div class="img-tile">
     <img src="/images/Tania+equations.jpg" alt="Tania quantitative genetics equations">
@@ -84,3 +85,4 @@ We study the evolutionary causes and consequences of genetic variation underlyin
 <img src="../images/wordle+16.png" alt="wordle+16" class="center-image" />
 
 My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly *Drosophila melanogaster*. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations. [Read more...]({{ '/research/' | relative_url }})
+</div>

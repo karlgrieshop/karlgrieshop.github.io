@@ -49,13 +49,21 @@ header a {
 
 .title-text {
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 5px;
+  flex-direction: column; // always stack vertically
+  align-items: flex-start;
+  text-align: left;
+  gap: 0;
   min-width: 0;
   font-family: var(--title);
-  text-align: left;
+  // Prevent wrapping within title/subtitle
+}
+
+.title,
+.subtitle {
+  white-space: nowrap; // prevent breaking within each line
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
 }
 
 .title {
