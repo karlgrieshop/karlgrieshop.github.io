@@ -5,12 +5,7 @@ nav:
   tooltip: Home
 ---
 
-<div class="homepage-container">
-  <div class="homepage-main">
-
 We study the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages, and environments.
-
----
 
 <style>
 .image-grid {
@@ -22,7 +17,7 @@ We study the evolutionary causes and consequences of genetic variation underlyin
   margin: 2rem auto;
 }
 .image-grid .img-tile {
-  aspect-ratio: 4/3; /* or 1/1 for square, or adjust as needed */
+  aspect-ratio: 4/3;
   width: 100%;
   overflow: hidden;
   border-radius: 8px;
@@ -42,6 +37,19 @@ We study the evolutionary causes and consequences of genetic variation underlyin
     grid-template-columns: 1fr;
   }
 }
+.news-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  margin: 2rem 0;
+  scroll-snap-type: x mandatory;
+}
+.news-scroll > div {
+  flex: 0 0 320px;
+  min-width: 0;
+  scroll-snap-align: start;
+}
 </style>
 
 <div class="image-grid">
@@ -59,22 +67,20 @@ We study the evolutionary causes and consequences of genetic variation underlyin
   </div>
 </div>
 
----
+<!-- News scroll section -->
+<div>
+  <h2 style="margin-bottom:0.5em;">News</h2>
+  <div class="news-scroll">
+    {% for post in site.posts limit:6 %}
+      <div>
+        {% include post-excerpt.html post=post %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
 ## Research
 
 <img src="../images/wordle+16.png" alt="wordle+16" class="center-image" />
 
 My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly *Drosophila melanogaster*. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations. [Read more...]({{ '/research/' | relative_url }})
-
-  </div>
-  <aside class="homepage-news-sidebar">
-    <h2>Latest News</h2>
-    {% for post in site.posts limit:3 %}
-      {% include post-excerpt.html post=post %}
-    {% endfor %}
-  </aside>
-</div>
-
-
-
