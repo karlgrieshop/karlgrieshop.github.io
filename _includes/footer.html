@@ -2,8 +2,8 @@
 {% assign dark = page.footer-dark | is_nil: site.footer-dark | is_nil: true %}
 
 <footer
-  class="footer-simple"
-  style="background: none;"
+  class="background"
+  style="--image: url('{{ image | relative_url | uri_escape }}')"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
@@ -24,11 +24,11 @@
   </div>
 
   <div>
-     &nbsp; | &nbsp; Contact
     <a href="{{ '/contact/' | relative_url }}">Contact</a>
-    &copy; {{ site.time | date: "%Y" }}
-    {{ site.title }}
-    &nbsp; | &nbsp; Built with
+    &nbsp;|&nbsp;
+    &copy; {{ site.time | date: "%Y" }} {{ site.title }}
+    &nbsp;|&nbsp;
+    Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
