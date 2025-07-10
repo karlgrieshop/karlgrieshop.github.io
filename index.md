@@ -70,7 +70,9 @@ We study the evolutionary causes and consequences of genetic variation underlyin
 
 <!-- News scroll section -->
 <div>
-  <h2 style="margin-bottom:0.5em;">News</h2>
+  <h2>
+    <a href="{{ '/blog/' | relative_url }}" style="color: inherit; text-decoration: none;">News</a>
+  </h2>
   <div class="news-scroll">
     {% for post in site.posts limit:6 %}
       <div>
@@ -80,9 +82,14 @@ We study the evolutionary causes and consequences of genetic variation underlyin
   </div>
 </div>
 
-## Research
+<a href="{{ '/research/' | relative_url }}"><h2>Research</h2></a>
 
 <img src="../images/wordle+16.png" alt="wordle+16" class="center-image" />
 
-My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly *Drosophila melanogaster*. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations. [Read more...]({{ '/research/' | relative_url }})
+<p>
+My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly <em>Drosophila melanogaster</em>. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations.
+</p>
+<p>
+  <a href="{{ '/research/' | relative_url }}">Read more...</a>
+</p>
 </div>
