@@ -476,24 +476,32 @@ nav, .subtitle, .caption {
   gap: 1rem;
 }
 .carousel-btn {
-  background: #eee;
+  background: var(--primary, #0795d9);
   border: none;
-  color: #888;
+  color: #fff;
   font-size: 2rem;
   padding: 0.5em 0.7em;
   border-radius: 50%;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
   user-select: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 8px #0002;
+  outline: none;
+}
+.carousel-btn:hover:not(:disabled) {
+  background: var(--secondary, #7dd3fc);
+  color: #222;
+  box-shadow: 0 4px 12px #0003;
 }
 .carousel-btn:disabled {
   background: #f5f5f5;
   color: #ccc;
   cursor: not-allowed;
   opacity: 0.5;
+  box-shadow: none;
 }
 .carousel-scroll {
   display: flex;
@@ -617,8 +625,7 @@ We study the evolutionary causes and consequences of genetic variation underlyin
       
       
       <p data-search="Grieshop et al.: Expression divergence in response to sex-biased selectionSummary">
-        Grieshop et al.: Expression divergence in response to sex-biased selection
-
+        Grieshop et al.: Expression divergence in respo...
       </p>
     </div>
   </div>
@@ -667,7 +674,7 @@ We study the evolutionary causes and consequences of genetic variation underlyin
       
       
       <p data-search="Ellie was awarded the Accreditation Top Project Award from the Royal Society of Biology for her undergraduate research dissertation in the Grieshop Lab Awesome job; well done">
-        Ellie was awarded the Accreditation Top Project Award from the Royal Society of Biology for her u...
+        Ellie was awarded the Accreditation Top Project...
       </p>
     </div>
   </div>
@@ -716,8 +723,7 @@ We study the evolutionary causes and consequences of genetic variation underlyin
       
       
       <p data-search="Grieshop et al.: Expression divergence in response to sex-biased selection">
-        Grieshop et al.: Expression divergence in response to sex-biased selection
-
+        Grieshop et al.: Expression divergence in respo...
       </p>
     </div>
   </div>
@@ -766,8 +772,7 @@ We study the evolutionary causes and consequences of genetic variation underlyin
       
       
       <p data-search="Cis-regulatory Variation in Relation to Sex and Sexual Dimorphism in Drosophila melanogaster">
-        Cis-regulatory Variation in Relation to Sex and Sexual Dimorphism in Drosophila melanogaster
-
+        Cis-regulatory Variation in Relation to Sex and...
       </p>
     </div>
   </div>
@@ -866,8 +871,7 @@ We study the evolutionary causes and consequences of genetic variation underlyin
       
       
       <p data-search="Dominance reversals: the resolution of genetic conflict and maintenance of genetic variation">
-        Dominance reversals: the resolution of genetic conflict and maintenance of genetic variation
-
+        Dominance reversals: the resolution of genetic ...
       </p>
     </div>
   </div>
