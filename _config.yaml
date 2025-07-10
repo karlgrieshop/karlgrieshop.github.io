@@ -8,7 +8,6 @@ proofer: false
 
 # site social media and other links
 links:
-  email: /contact/
   orcid: 0000-0001-8925-5066
   google-scholar: 52Zoz-wAAAAJ
   github: karlgrieshop
