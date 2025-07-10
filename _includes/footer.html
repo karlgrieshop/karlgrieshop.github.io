@@ -2,8 +2,8 @@
 {% assign dark = page.footer-dark | is_nil: site.footer-dark | is_nil: true %}
 
 <footer
-  class="background"
-  style="--image: url('{{ image | relative_url | uri_escape }}')"
+  class="footer-simple"
+  style="background: none;"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
@@ -24,16 +24,8 @@
   </div>
 
   <div>
-    <hr>
-    <ul style="list-style: none; padding: 0; margin: 0;">
-      <li><strong><a href="{{ '/contact/' | relative_url }}">Contact</a></strong></li>
-      <li><strong>Twitter:</strong> <a href="https://x.com/karlgrieshop">@karlgrieshop</a></li>
-      <li><strong>Bluesky:</strong> <a href="https://bsky.app/profile/karlgrieshop.bsky.social">@karlgrieshop.bsky.social</a></li>
-    </ul>
-    <hr>
-  </div>
-
-  <div>
+     &nbsp; | &nbsp; Contact
+    <a href="{{ '/contact/' | relative_url }}">Contact</a>
     &copy; {{ site.time | date: "%Y" }}
     {{ site.title }}
     &nbsp; | &nbsp; Built with

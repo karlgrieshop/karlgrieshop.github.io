@@ -8,12 +8,12 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@karlgrieshop.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: /contact/
+  orcid: 0000-0001-8925-5066
+  google-scholar: 52Zoz-wAAAAJ
   github: karlgrieshop
   twitter: karlgrieshop
-  blue-sky: karlgrieshop.bsky.social
+  bluesky: karlgrieshop.bsky.social
 
 ### jekyll settings
 

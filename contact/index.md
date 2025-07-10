@@ -38,8 +38,3 @@ Norwich Research Park
 Norwich, NR4 7TJ  
 U.K.
 
----
-
-You can also reach me  
-- on Twitter: [@karlgrieshop](https://x.com/karlgrieshop)  
-- on Bluesky: [@karlgrieshop.bsky.social](https://bsky.app/profile/karlgrieshop.bsky.social)

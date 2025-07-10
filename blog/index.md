@@ -7,7 +7,7 @@ nav:
 
 # News
 
-Welcome to the Grieshop Lab news feed! Here you'll find updates, announcements, and recent highlights.
+Grieshop Lab news feed! Updates, announcements, and recent highlights.
 
 ---
 
