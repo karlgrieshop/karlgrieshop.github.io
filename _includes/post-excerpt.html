@@ -53,7 +53,7 @@
         | regex_strip
       %}
       <p data-search="{{ search }}">
-        {{ excerpt }}
+        {{ excerpt | truncate: 100 }}
       </p>
     </div>
   </div>

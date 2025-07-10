@@ -7,8 +7,28 @@ nav:
 
 # Contact
 
-![Karl Grieshop](/images/Karl_portrait.jpg){: style="max-width: 250px;" }
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+  <img src="/images/Karl_portrait.jpg" alt="Karl Grieshop" style="max-width: 250px; border-radius: 8px; box-shadow: 0 2px 8px #0002;">
+  <div style="flex: 1 1 300px;">
+    <h2 style="margin-top:0;">Join the team</h2>
+    <ul style="margin-bottom: 1.5em;">
+      <li><strong>Postdoc opportunities</strong></li>
+      <li><strong>PhD studentships</strong></li>
+      <li><strong>Master's</strong></li>
+      <li><strong>Undergraduate</strong></li>
+    </ul>
+    <p><strong>Email:</strong><br>K.Grieshop[at]uea.ac.uk</p>
+    <p><strong>Address:</strong><br>
+      <a href="https://research-portal.uea.ac.uk/en/persons/karl-grieshop">School of Biological Sciences</a><br>
+      University of East Anglia<br>
+      Norwich Research Park<br>
+      Norwich, NR4 7TJ<br>
+      U.K.
+    </p>
+  </div>
+</div>
 
+---
 
 **Join the team**
 
