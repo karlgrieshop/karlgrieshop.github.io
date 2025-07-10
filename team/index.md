@@ -13,7 +13,11 @@ nav:
     <ul style="margin-bottom: 1.5em;">
       {% assign members = site.members | sort: "order" %}
       {% for member in members %}
-        <li><strong>{{ member.name }}</strong></li>
+        <li>
+          <a href="#{{ member.name | slugify }}" style="color: inherit; text-decoration: underline;">
+            <strong>{{ member.name }}</strong>
+          </a>
+        </li>
       {% endfor %}
     </ul>
   </div>
@@ -23,7 +27,7 @@ nav:
 
 {% assign members = site.members | sort: "order" %}
 {% for member in members %}
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+<div id="{{ member.name | slugify }}" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
   <img src="{{ member.image }}" alt="{{ member.name }}" style="max-width: 250px; border-radius: 8px; box-shadow: 0 2px 8px #0002;">
   <div style="flex: 1 1 300px;">
     <h3 style="margin-top:0;">{{ member.name }}</h3>

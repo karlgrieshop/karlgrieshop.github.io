@@ -43,24 +43,32 @@ nav:
   gap: 1rem;
 }
 .carousel-btn {
-  background: #eee;
+  background: var(--primary, #0795d9);
   border: none;
-  color: #888;
+  color: #fff;
   font-size: 2rem;
   padding: 0.5em 0.7em;
   border-radius: 50%;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
   user-select: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 8px #0002;
+  outline: none;
+}
+.carousel-btn:hover:not(:disabled) {
+  background: var(--secondary, #7dd3fc);
+  color: #222;
+  box-shadow: 0 4px 12px #0003;
 }
 .carousel-btn:disabled {
   background: #f5f5f5;
   color: #ccc;
   cursor: not-allowed;
   opacity: 0.5;
+  box-shadow: none;
 }
 .carousel-scroll {
   display: flex;
