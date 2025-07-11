@@ -146,9 +146,13 @@ header[data-big] .title-text {
 }
 header[data-big] .title {
   font-size: var(--xxl);
+  white-space: normal;
+  text-align: center;
 }
 header[data-big] .subtitle {
   font-size: var(--large);
+  white-space: normal;
+  text-align: center;
 }
 
 /*# sourceMappingURL=header.css.map */
