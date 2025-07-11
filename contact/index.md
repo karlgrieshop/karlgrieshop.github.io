@@ -44,6 +44,8 @@ Here's some more info on the [integrated BSc+MSci](https://www.uea.ac.uk/course/
 **Undergraduate**  
 We supervise a range of undergraduate research projects in the areas of evolutionary biology, genomics, transcriptomics, and theory - using programming languages such as Bash, R, and Python.
 
+---
+
 **Email:**  
 K.Grieshop[at]uea.ac.uk
 

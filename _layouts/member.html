@@ -20,6 +20,10 @@ layout: default
 
 {{ content }}
 
+<div class="member-bio">
+  {{ page.bio | markdownify }}
+</div>
+
 {% assign aliases = page.aliases
   | default: page.name
   | default: page.title
