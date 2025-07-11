@@ -31,7 +31,7 @@ nav:
   <img src="{{ member.image }}" alt="{{ member.name }}" style="max-width: 250px; border-radius: 8px; box-shadow: 0 2px 8px #0002;">
   <div style="flex: 1 1 300px;">
     <h3 style="margin-top:0;">{{ member.name }}</h3>
-    <p>{{ member.bio }}</p>
+    <p>{{ member.bio | markdownify }}</p>
   </div>
 </div>
 ---
