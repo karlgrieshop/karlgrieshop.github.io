@@ -168,9 +168,13 @@ header[data-big] {
 
   .title {
     font-size: var(--xxl);
+    white-space: normal; // allow wrapping for long titles
+    text-align: center;
   }
 
   .subtitle {
     font-size: var(--large);
+    white-space: normal; // allow wrapping for long subtitles
+    text-align: center;
   }
 }

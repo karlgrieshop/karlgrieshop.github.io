@@ -17,8 +17,8 @@
   --primary: #0795d9;
   --secondary: #075985;
   --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
+  --background: #23272e;  
+  --background-alt: #282c34;
   --light-gray: #404040;
   --gray: #808080;
   --dark-gray: #b0b0b0;
@@ -202,5 +202,5 @@ header .logo svg {
 
 /* Offset anchor targets for fixed header */
 [id] {
-  scroll-margin-top: 80px; // Adjust 80px to match your header/nav height
+  scroll-margin-top: 120px; // Adjust 120px to match your header/nav height
 }
