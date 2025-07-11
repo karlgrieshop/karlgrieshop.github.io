@@ -17,14 +17,6 @@ nav:
       <li><a href="#masters" style="color: inherit; text-decoration: underline;"><strong>Master's</strong></a></li>
       <li><a href="#undergraduate" style="color: inherit; text-decoration: underline;"><strong>Undergraduate</strong></a></li>
     </ul>
-    <p><strong>Email:</strong><br>K.Grieshop[at]uea.ac.uk</p>
-    <p><strong>Address:</strong><br>
-      <a href="https://research-portal.uea.ac.uk/en/persons/karl-grieshop">School of Biological Sciences</a><br>
-      University of East Anglia<br>
-      Norwich Research Park<br>
-      Norwich, NR4 7TJ<br>
-      U.K.
-    </p>
   </div>
 </div>
 
@@ -41,10 +33,12 @@ We are always looking for clever and motivated PhD students. At UEA, studentship
 <span id="masters"></span>
 **Master's**  
 We're always keen to supervise master's research dissertations. There are three types of master's available at UEA: postgraduate research ([PGR](https://www.uea.ac.uk/course/phd-doctorate/postgraduate-research-in-biological-sciences)), postgraduate taught ([PGT](https://www.uea.ac.uk/search/courses?primaryCategory%5B0%5D=Postgraduate&department%5B0%5D=Biological%20Sciences)), and the [integrated BSc+MSci](https://www.uea.ac.uk/course/undergraduate/msci-biological-sciences).  
+
 The PGR ([MSc Res](https://www.uea.ac.uk/research/research-with-us/postgraduate-research/postgraduate-qualifications-explained/masters-by-research)) is a year-long research period ("Period of Study") followed by a year-long writing-up period (Period of Registration) - it's basically the first year of a PhD, research-focused, with no required taught modules. Email me if interested.  
+
 The PGT (MSc) features several different year-long programs that include taught modules and a research dissertation - the relevant tracks for the Grieshop Lab would be [MSc Evolution and Genomics](https://www.uea.ac.uk/course/postgraduate/msc-evolution-and-genomics), [MSc Data Science for Biology](https://www.uea.ac.uk/course/postgraduate/msc-data-science-for-biology), [MSc Animal Behaviour](https://www.uea.ac.uk/course/postgraduate/msc-animal-behaviour), or the [MSc Biology of Ageing and Lifelong Health](https://www.uea.ac.uk/course/postgraduate/msc-biology-of-ageing-and-lifelong-health).  
-[The integrated BSc+MSci](https://www.uea.ac.uk/course/undergraduate/msci-biological-sciences)  
-More info on the [integrated BSc+MSci](https://www.uea.ac.uk/course/undergraduate/msci-biological-sciences#course_modules).
+  
+Here's some more info on the [integrated BSc+MSci](https://www.uea.ac.uk/course/undergraduate/msci-biological-sciences#course_modules).
 
 <span id="undergraduate"></span>
 **Undergraduate**  
