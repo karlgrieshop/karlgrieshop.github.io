@@ -45,6 +45,4 @@
   // when hash nav happens
   window.addEventListener("hashchange", scrollToTarget);
 }
-  window.addEventListener("hashchange", scrollToTarget);
-}
-*/
+
