@@ -3,5 +3,5 @@ name: Becky Williams
 order: 2
 image: /images/Becky_Williams.jpg
 bio: |
-  Incoming PhD student studying the genomic architecture of sex-specific climate adaptation in *Drosophila melanogaster*.
+  PhD student using theoretical modelling and *Drosophila melanogaster* experimental genomics to study the role of sex- and temperature-specific dominance in adaptive plasticity .
 ---
