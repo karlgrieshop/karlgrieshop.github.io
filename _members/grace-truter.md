@@ -1,7 +1,7 @@
 ---
 name: Grace Truter
 order: 3
-image: /images/FBNMzdsWUAQ7Oi4.jpg
+image: /images/Profile_Icon_2.jpg
 bio: |
-  MSci Res student characterising candidate sexually antagonistic regions of the *Drosophila melanogaster* genome.
+  MSc Res student characterising candidate sexually antagonistic regions of the *Drosophila melanogaster* genome.
 ---
