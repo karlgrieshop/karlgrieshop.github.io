@@ -9,7 +9,7 @@ nav:
 
 ## Overview
 
-<img src="../images/wordcloud.png" alt="wordcloud" class="center-image" />
+<img src="../images/Research1.png" alt="wordcloud" class="center-image" />
 
 My lab aims to understand the evolutionary causes and consequences of genetic variation underlying fitness trade-offs between sexes, traits, tissues, life-stages and environments. This includes topics such as sexual conflict, antagonistic pleiotropy, fluctuating selection, phenotypic plasticity and local adaptation, which have implications for wildlife conservation, pest management, and genetic disease. We take an interdisciplinary approach, blending lab experiments, statistics, quantitative genetics, bioinformatics, molecular genetics and mathematical modelling to understand these genetic trade-offs in the fruit fly *Drosophila melanogaster*. Similar questions are tackled in other organisms (birds, plants, other arthropods) through various collaborations.
 
@@ -17,7 +17,7 @@ My lab aims to understand the evolutionary causes and consequences of genetic va
 
 ## Detecting antagonistic loci
 
-<img src="../images/ReproductiveFst.png" alt="Reproductive Fst" class="center-image" />
+<img src="../images/Grieshop_et_al_2025_Sup.png" alt="Experimental evolution" class="center-image" />
 
 The field is only scratching the surface on the number and location of antagonistic polymorphisms in the genome, their molecular and population genetic characteristics, and the phenotypes they govern. The lab is interested in developing novel methodologies for identifying candidate antagonistic polymorphisms using a combination of quantitative genetics, genomics, transcriptomics, experimental evolution, genome editing, phenotyping, and mathematical modelling. Some of this work aims to leverage a conspicuous pattern of Mendelian inheritance that antagonistic polymorphisms should be enriched for: dominance reversals (see next section).
 
