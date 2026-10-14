@@ -1,6 +1,6 @@
 ---
 title: "2 PhD positions in my lab (Oct 2027 start)"
-date: 2025-10-23
+date: 2026-10-14
 image: /images/Karl+Grieshop+-+2024-25+NRP+DTP+picture+-+2.png
 ---
 
